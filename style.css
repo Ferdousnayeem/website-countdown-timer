@@ -53,6 +53,11 @@
     cursor: pointer;
 }
 
+.content button a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .content button img {
     width: 15px;
     margin-left: 10px;
@@ -87,4 +92,16 @@
         bottom: 105%;
         opacity: 1;
     }
+}
+
+
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found img {
+    width: 35%;
+    height: 35%;
 }
