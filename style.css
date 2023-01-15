@@ -53,9 +53,12 @@
     cursor: pointer;
 }
 
-.content a {
+.content button a {
     text-decoration: none;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content button img {
